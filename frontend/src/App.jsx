@@ -27,14 +27,14 @@ function App() {
       setMessage(`Connection failed: ${error.message}`);
     } finally {
       setLoading(false);
-    }
+    } 
   }
 
   return (
     <main className="container">
       <p className="label">FULL-STACK DEPLOYMENT DEMO</p>
 
-      <h1>React and Flask</h1>
+      <h1>React and Flask Deployment Demo</h1>
 
       <p className="description">
         React is deployed on Vercel and Flask is deployed on Render.
