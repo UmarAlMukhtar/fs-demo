@@ -1,0 +1,104 @@
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #172033;
+  background: #f5f7fb;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+.container {
+  width: min(650px, calc(100% - 40px));
+  margin: 100px auto;
+  padding: 40px;
+  background: white;
+  border: 1px solid #dde3ee;
+  border-radius: 16px;
+  box-shadow: 0 16px 45px rgb(30 45 75 / 10%);
+}
+
+.label {
+  margin: 0 0 12px;
+  color: #6541d8;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
+h1 {
+  margin: 0 0 12px;
+  font-size: 42px;
+}
+
+.description {
+  margin: 0;
+  color: #526078;
+  line-height: 1.6;
+}
+
+.result {
+  margin: 28px 0;
+  padding: 20px;
+  background: #f2efff;
+  border-radius: 10px;
+}
+
+.result p {
+  margin-bottom: 0;
+  line-height: 1.6;
+}
+
+button {
+  padding: 12px 18px;
+  border: 0;
+  border-radius: 8px;
+  background: #5129c5;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+small {
+  display: block;
+  margin-top: 20px;
+  color: #68758c;
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 600px) {
+  .container {
+    margin: 40px auto;
+    padding: 28px 22px;
+  }
+
+  h1 {
+    font-size: 34px;
+  }
+
+  button {
+    width: 100%;
+  }
+}
