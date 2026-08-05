@@ -30,7 +30,7 @@ def home():
 @app.get("/api/message")
 def message():
     return jsonify(
-        message="React successfully connected to Flask on Render, deployed version 2"
+        message="React successfully connected to Flask on Render"
     )
 
 
